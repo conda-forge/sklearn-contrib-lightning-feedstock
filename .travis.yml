@@ -30,13 +30,10 @@ install:
       curl -O "${MINICONDA_URL}/${MINICONDA_FILE}"
       bash $MINICONDA_FILE -b
 
-      export PATH=/Users/travis/miniconda3/bin:$PATH
-
-      conda config --set show_channel_urls true
-      conda update --yes conda
-      conda install --yes conda-build=1.20.0 jinja2 anaconda-client
+      source /Users/travis/miniconda3/bin/activate root
       conda config --add channels conda-forge
-      
+      conda config --set show_channel_urls true
+      conda install --yes --quiet conda-forge-build-setup
 
 script:
   - conda build ./recipe
