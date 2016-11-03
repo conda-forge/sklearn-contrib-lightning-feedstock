@@ -29,9 +29,10 @@ install:
       MINICONDA_URL="http://repo.continuum.io/miniconda"
       MINICONDA_FILE="Miniconda3-latest-MacOSX-x86_64.sh"
       curl -O "${MINICONDA_URL}/${MINICONDA_FILE}"
-      bash $MINICONDA_FILE -b
+      bash $MINICONDA_FILE -b -p $HOME/miniconda
 
-      source /Users/travis/miniconda3/bin/activate root
+      export PATH="$HOME/miniconda/bin:$PATH"
+      hash -r
       conda config --add channels conda-forge
       conda config --set show_channel_urls true
       conda install --yes --quiet conda-forge-build-setup
