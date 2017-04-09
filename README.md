@@ -11,6 +11,18 @@ Summary: lightning is a library for large-scale linear classification, regressio
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/sklearn-contrib-lightning-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/sklearn-contrib-lightning-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/sklearn-contrib-lightning-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/sklearn-contrib-lightning-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/sklearn-contrib-lightning-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/sklearn-contrib-lightning-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sklearn-contrib-lightning/badges/version.svg)](https://anaconda.org/conda-forge/sklearn-contrib-lightning)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sklearn-contrib-lightning/badges/downloads.svg)](https://anaconda.org/conda-forge/sklearn-contrib-lightning)
+
 Installing sklearn-contrib-lightning
 ====================================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `sklearn-contrib-lightning` availa
 ```
 conda search sklearn-contrib-lightning --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/sklearn-contrib-lightning-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/sklearn-contrib-lightning-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/sklearn-contrib-lightning-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/sklearn-contrib-lightning-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/sklearn-contrib-lightning-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/sklearn-contrib-lightning-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sklearn-contrib-lightning/badges/version.svg)](https://anaconda.org/conda-forge/sklearn-contrib-lightning)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sklearn-contrib-lightning/badges/downloads.svg)](https://anaconda.org/conda-forge/sklearn-contrib-lightning)
 
 
 Updating sklearn-contrib-lightning-feedstock
