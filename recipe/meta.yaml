@@ -13,7 +13,7 @@ source:
   {{ hash_type }}: {{ hash_val }}
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -22,9 +22,11 @@ requirements:
     - setuptools
     - numpy x.x
     - cython
+    - scikit-learn
   run:
     - python
     - numpy x.x
+    - scikit-learn
 
 test:
   requires:
