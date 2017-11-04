@@ -20,12 +20,12 @@ requirements:
   build:
     - python
     - setuptools
-    - numpy x.x
+    - numpy 1.11.*
     - cython
     - scikit-learn
   run:
     - python
-    - numpy x.x
+    - numpy >=1.11
     - scikit-learn
 
 test:
