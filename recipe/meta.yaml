@@ -52,6 +52,7 @@ about:
   home: http://contrib.scikit-learn.org/lightning/
   license: BSD 3-Clause
   summary: lightning is a library for large-scale linear classification, regression and ranking in Python.
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:
