@@ -30,8 +30,6 @@ requirements:
     - numpy 
     - cython
     - scikit-learn
-    - {{ compiler('c') }}
-    - {{ compiler('cxx') }}
   run:
     - python
     - {{ pin_compatible('numpy') }}
