@@ -1,5 +1,5 @@
 {% set name = "sklearn-contrib-lightning" %}
-{% set version = "0.5.0" %}
+{% set version = "0.6.0" %}
 {% set hash_val = "dca6cf1bea09cf77cf052119f4a43093" %}
 
 package:
@@ -14,7 +14,7 @@ source:
     - fix_tests.patch 
 
 build:
-  number: 2
+  number: 0
   skip: True  # [py2k]
 
 requirements:
