@@ -1,6 +1,6 @@
 {% set name = "sklearn-contrib-lightning" %}
 {% set version = "0.6.0" %}
-{% set hash_val = "dca6cf1bea09cf77cf052119f4a43093" %}
+{% set hash_val = "fe7ea12831425cb1feaef072542e21dd" %}
 
 package:
   name: {{ name }}
