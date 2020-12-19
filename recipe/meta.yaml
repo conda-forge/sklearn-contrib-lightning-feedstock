@@ -1,15 +1,14 @@
 {% set name = "sklearn-contrib-lightning" %}
 {% set version = "0.6.0" %}
-{% set hash_val = "fe7ea12831425cb1feaef072542e21dd" %}
 
 package:
   name: {{ name }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  md5: {{ hash_val }}
+  git_url: https://github.com/scikit-learn-contrib/lightning.git
+  git_rev: f05855f4ef9e7415c9afd16a033f2d2a4c192848
+  git_depth: 1
   patches:
     - fix_tests.patch 
 
