@@ -1,13 +1,17 @@
 About sklearn-contrib-lightning
 ===============================
 
-Home: http://contrib.scikit-learn.org/lightning/
+Home: https://contrib.scikit-learn.org/lightning/
 
 Package license: BSD 3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sklearn-contrib-lightning-feedstock/blob/master/LICENSE.txt)
 
 Summary: lightning is a library for large-scale linear classification, regression and ranking in Python.
+
+Development: https://github.com/scikit-learn-contrib/lightning
+
+Documentation: https://contrib.scikit-learn.org/lightning/
 
 Current build status
 ====================
@@ -210,6 +214,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@aldanor](https://github.com/aldanor/)
 * [@fabianp](https://github.com/fabianp/)
 * [@mblondel](https://github.com/mblondel/)
 
