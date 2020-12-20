@@ -1,13 +1,12 @@
-{% set name = "sklearn-contrib-lightning" %}
 {% set version = "0.6.0" %}
 
 package:
-  name: {{ name }}
+  name: sklearn-contrib-lightning
   version: {{ version }}
 
 source:
-  git_url: https://github.com/scikit-learn-contrib/lightning.git
-  git_rev: f05855f4ef9e7415c9afd16a033f2d2a4c192848
+  url: https://pypi.io/packages/source/s/sklearn-contrib-lightning/sklearn-contrib-lightning-{{ version }}.tar.gz
+  sha256: ec21510ebc4f472a757b441eccb796398b193966c431b8178a1d52509d73a76e
   patches:
     - fix_tests.patch 
 
@@ -18,7 +17,6 @@ requirements:
   build:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
-    - make
   host:
     - python
     - pip
@@ -40,10 +38,12 @@ test:
     - lightning
 
 about:
-  home: http://contrib.scikit-learn.org/lightning/
+  home: https://contrib.scikit-learn.org/lightning/
+  doc_url: https://contrib.scikit-learn.org/lightning/
+  dev_url: https://github.com/scikit-learn-contrib/lightning
   license: BSD 3-Clause
-  summary: lightning is a library for large-scale linear classification, regression and ranking in Python.
   license_file: LICENSE.txt
+  summary: lightning is a library for large-scale linear classification, regression and ranking in Python.
 
 extra:
   recipe-maintainers:
