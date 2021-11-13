@@ -1,4 +1,4 @@
-{% set version = "0.6.0" %}
+{% set version = "0.6.1" %}
 
 package:
   name: sklearn-contrib-lightning
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/s/sklearn-contrib-lightning/sklearn-contrib-lightning-{{ version }}.tar.gz
-  sha256: ec21510ebc4f472a757b441eccb796398b193966c431b8178a1d52509d73a76e
+  sha256: 72579fcf2df9b546997baa5e271f28adf898b5f68c6c6c718bbb53ea15d011c5
   patches:
-    - fix_tests.patch 
+    - fix_tests.patch
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
@@ -21,7 +21,7 @@ requirements:
     - python
     - pip
     - setuptools
-    - numpy 
+    - numpy
     - cython
     - scikit-learn
   run:
